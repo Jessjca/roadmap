@@ -1,0 +1,68 @@
+/*== Geral =================== */
+
+@media (min-width: 1439px) {
+    h1 {
+      font-size: 4rem;
+    }
+  }
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+  }
+
+h1 {
+    color: hsl(210, 10%, 33%);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    position: fixed;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.description {
+    color: hsl(201, 11%, 66%);
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    padding: 0;
+    position: relative;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ios {
+    background: hsl(171, 66%, 44%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    width: 180px;
+    height: 40px;
+    border-radius: 4rem;
+    font-size: 13px;
+}
+
+.mac{
+    background: hsl(233, 100%, 69%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    width: 180px;
+    height: 40px;
+    border-radius: 4rem;
+    font-size: 13px;
+}
+
+.attribution {
+    color: hsl(201, 11%, 66%);
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+}
