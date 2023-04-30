@@ -15,12 +15,13 @@ h1 {
     font-size: 25px;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .logo {
-    position: fixed;
+    position: absolute;
     left: 50%;
-    top: 45%;
+    top: 30%;
     transform: translate(-50%, -50%);
 }
 
@@ -28,6 +29,7 @@ h1 {
     color: hsl(201, 11%, 66%);
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .container{
@@ -43,11 +45,18 @@ h1 {
 .ios {
     background: hsl(171, 66%, 44%);
     color: hsl(0, 0%, 100%);
+    outline: none;
     border: none;
     width: 180px;
     height: 40px;
     border-radius: 4rem;
     font-size: 13px;
+    transition: all 0.5s ease 0s;
+    border-bottom: 2px solid hsl(171, 66%, 35%);
+}
+
+.ios:hover {
+    background: hsl(171, 66%, 35%);
 }
 
 .mac{
@@ -58,6 +67,13 @@ h1 {
     height: 40px;
     border-radius: 4rem;
     font-size: 13px;
+    transition: all 0.5s ease 0s;
+    border-bottom: 2px solid hsl(233, 49%, 52%);
+    margin-left: 20px;
+}
+
+.mac:hover {
+    background: hsl(233, 49%, 52%);
 }
 
 .attribution {
