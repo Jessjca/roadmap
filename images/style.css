@@ -10,6 +10,19 @@ body {
     font-family: 'Bai Jamjuree', sans-serif;
   }
 
+.img-header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.logo {
+    display: block; /* para alinhar a imagem no centro horizontal */
+    margin: 0 auto; /* para alinhar a imagem no centro vertical e horizontal */
+    margin-top: 200px;
+}
+
 .page-1 h1 {
     color: hsl(210, 10%, 33%);
     font-size: 25px;
@@ -18,12 +31,7 @@ body {
     text-align: center;
 }
 
-.logo {
-    display: block; /* para alinhar a imagem no centro horizontal */
-    margin: 0 auto; /* para alinhar a imagem no centro vertical e horizontal */
-}
-
-.description {
+.page-1 p {
     color: hsl(201, 11%, 66%);
     display: flex;
     justify-content: center;
@@ -74,12 +82,7 @@ body {
     background: hsl(233, 49%, 52%);
 }
 
-.attribution {
-    color: hsl(201, 11%, 66%);
-    display: flex;
-    justify-content: center;
-    font-size: 13px;
-}
+
 
 .page-2 h1 {
     margin-top: 100px;
@@ -90,10 +93,15 @@ body {
     text-align: center;
 }
 
+.page-2 p {
+    color: hsl(201, 11%, 66%);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 .container-h2 {
     overflow: auto; /* para que o contêiner se expanda para conter a imagem e o texto */
-    color: hsl(201, 11%, 66%);
-    font-size: 15px;
     margin-top: 50px;
   }
 
@@ -103,6 +111,12 @@ body {
     font-size: 25px;
     display: flex;
   }
+
+.page-2 .container-h2 p {
+    margin-top: 50px;
+    color: hsl(201, 11%, 66%);
+    font-size: 15px;
+}
   
 .img-computer {
     float: left; /* para alinhar a imagem à esquerda */
@@ -148,7 +162,7 @@ body {
     flex-direction: column;
 }
 
-.box img {
+.page-4 img {
     max-width: 100%; /* para garantir que a imagem não ultrapasse o tamanho da div */
     height: auto; /* para manter a proporção da imagem */
     display: block; /* para centralizar a imagem horizontalmente */
@@ -156,14 +170,12 @@ body {
 }
 
 .page-4 h1 {
-    margin-top: 100px;
-    margin-top: 100px;
+    margin-top: 50px;
     color: hsl(210, 10%, 33%);
     font-size: 25px;
     display: flex;
     justify-content: center;
     text-align: center;
-    margin: 10px 0;
 }
 
 .page-4 p {
@@ -175,3 +187,12 @@ body {
     margin-top: 20px;
 }
 
+.page-5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-5 .images {
+    flex: 0 0 18%;
+    margin-right: 10px;
+}
