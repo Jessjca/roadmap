@@ -19,10 +19,8 @@ body {
 }
 
 .logo {
-    position: absolute;
-    left: 50%;
-    top: 30%;
-    transform: translate(-50%, -50%);
+    display: block; /* para alinhar a imagem no centro horizontal */
+    margin: 0 auto; /* para alinhar a imagem no centro vertical e horizontal */
 }
 
 .description {
@@ -110,3 +108,28 @@ body {
     float: left; /* para alinhar a imagem à esquerda */
     margin-right: 150px; /* para adicionar um espaço entre a imagem e o texto */
   }
+
+.page-3 h1 {
+    margin-top: 100px;
+    margin-top: 100px;
+    color: hsl(210, 10%, 33%);
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.page-3 p {
+    color: hsl(201, 11%, 66%);
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.page-3 img {
+    display: block; /* para alinhar a imagem no centro horizontal */
+    margin: 0 auto; /* para alinhar a imagem no centro vertical e horizontal */
+    margin-top: 100px;
+}
