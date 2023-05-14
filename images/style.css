@@ -188,14 +188,28 @@ body {
 }
 
 .page-5 {
-    display: flex;
-    justify-content: space-between;
+    margin: 200px;
 }
 
-.page-5 .images {
-    flex: 0 0 18%;
-    margin-right: 10px;
-}
+.image1 {
+    margin: 3%;
+}  
+
+.image2 {
+    margin: 3%;
+}  
+
+.image3 {
+    margin: 3%;
+}  
+
+.image4 {
+    margin: 3%;
+}  
+
+.image5 {
+    margin: 30px;
+}  
 
 .page-6 h1 {
     color: hsl(210, 10%, 33%);
